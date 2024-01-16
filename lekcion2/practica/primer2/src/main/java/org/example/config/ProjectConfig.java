@@ -8,7 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan("H:\\\\Java Project\\\\javaSpring\\\\lekcion2\\\\practica\\\\primer2\\\\src\\\\main\\\\java\\\\org\\\\example\\\\domain")//""
+@ComponentScan(basePackages = "org.example.domain")//"H:\\Java Project\\javaSpring\\lekcion2\\practica\\primer2\\src\\main\\java\\org\\example\\domain"
 public class ProjectConfig {
 //    @Bean
 //    Engin engin(){
