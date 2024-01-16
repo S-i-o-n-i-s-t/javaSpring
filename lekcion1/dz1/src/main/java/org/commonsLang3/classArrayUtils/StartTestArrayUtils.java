@@ -1,9 +1,8 @@
 package org.commonsLang3.classArrayUtils;
 
 public class StartTestArrayUtils {
+    //https://commons.apache.org/proper/commons-lang/javadocs/api-release/index.html - официальная документация
     public static void main(String[] args) {
-        //https://commons.apache.org/proper/commons-lang/javadocs/api-release/index.html - официальная документация
-
         String [] listText = {"a","b","c","d"};
         int [] listNum = {1,2,3,4};
         ArrayUtilsMetods arrayUtilsMetods = new ArrayUtilsMetods();

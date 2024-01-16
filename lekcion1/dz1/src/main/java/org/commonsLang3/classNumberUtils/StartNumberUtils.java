@@ -1,6 +1,7 @@
 package org.commonsLang3.classNumberUtils;
-
+// класс предоставляет большое количество служебных методов, предназначенных для обработки и управления числовыми типами .
 public class StartNumberUtils {
+    //https://commons.apache.org/proper/commons-lang/javadocs/api-release/index.html - официальная документация
     public static void main(String[] args) {
         NumberUtilsMetods numberUtilsMetods = new NumberUtilsMetods();
         System.out.println("compare() Метод сравнивает два числа - " + numberUtilsMetods.metodCompare(12, 12));

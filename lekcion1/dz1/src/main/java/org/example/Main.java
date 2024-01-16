@@ -31,7 +31,6 @@ public class Main {
         System.out.println("Использем библиотеку commons-lang3 для генерации метода equals и получаем - " + StringUtils.equals(person.toString(), person3.toString()));
         // https://for-each.dev/lessons/b/-java-hashcode про hashCode
         System.out.println("Использем библиотеку commons-lang3 для генерации метода hashCode и получаем - " + ArrayUtils.hashCode(person));
-
 //      5. Используйте библиотеку gson для сериализации и десериализации объектов класса Person в формат JSON.
         File file = new File("gsonTest.json");
         Gson gson = new GsonBuilder()
@@ -52,3 +51,13 @@ public class Main {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+

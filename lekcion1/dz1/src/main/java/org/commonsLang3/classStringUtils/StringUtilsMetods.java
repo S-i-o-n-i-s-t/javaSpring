@@ -1,8 +1,6 @@
 package org.commonsLang3.classStringUtils;
-
+// позволяет нам выполнять ряд операций со строками, безопасных для нулей , которые дополняют/расширяют те, которые предоставляет java.lang.String из коробки .
 import org.apache.commons.lang3.StringUtils;
-// Как следует из названия, StringUtils позволяет нам выполнять ряд операций со строками, безопасных для нулей ,
-// которые дополняют/расширяют те, которые предоставляет java.lang.String из коробки .
 public class StringUtilsMetods {
     // Метод containsAny
     /**

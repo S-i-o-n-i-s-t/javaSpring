@@ -25,7 +25,6 @@ public class Person {
         this.lastName = lastName;
         this.age = age;
     }
-
     public String getFirstName() {
         return firstName;
     }

@@ -1,8 +1,9 @@
 package org.commonsLang3.classStringUtils;
-
+// позволяет нам выполнять ряд операций со строками, безопасных для нулей , которые дополняют/расширяют те, которые предоставляет java.lang.String из коробки .
 public class StartTestStringUtils {
+    //https://commons.apache.org/proper/commons-lang/javadocs/api-release/index.html - официальная документация
     public static void main(String[] args) {
-        //https://commons.apache.org/proper/commons-lang/javadocs/api-release/index.html - официальная документация
+
 
         String test = "abcd";
         StringUtilsMetods stringUtilsMetods = new StringUtilsMetods();

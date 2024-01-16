@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: root
+    username: user
+    password: 2381012

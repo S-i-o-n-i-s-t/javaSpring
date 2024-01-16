@@ -1,5 +1,5 @@
 package org.commonsLang3.classNumberUtils;
-
+// класс предоставляет большое количество служебных методов, предназначенных для обработки и управления числовыми типами .
 import org.apache.commons.lang3.math.NumberUtils;
 
 public class NumberUtilsMetods {
