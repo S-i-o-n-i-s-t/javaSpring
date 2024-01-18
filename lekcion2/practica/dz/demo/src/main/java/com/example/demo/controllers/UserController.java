@@ -40,5 +40,8 @@ public class UserController {
         return "redirect:/users";
     }
 
-    //@GetMapping("user-delete/{id}")
+    @GetMapping("user-delete/{id}")
+    public  void delteUser(int id){
+        userService.deleteById(id);
+    }
 }
