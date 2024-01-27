@@ -1,0 +1,14 @@
+<!--DOCTYPE html-->
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>User Profile</title>
+    </head>
+    <body>
+        <!-- th (таймлиф)-->
+        <h1 th:text="Профиль ${user.name}"></h1>
+        <!-- <span> отображает ограниченные участки текста-->
+        <p>ID: <span th:text="${user.id}"></span></p>
+        <p>email: <span th:text="${user.email}"></span></p>
+    </body>
+</html>

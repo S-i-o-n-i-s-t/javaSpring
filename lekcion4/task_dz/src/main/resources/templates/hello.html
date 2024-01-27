@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html land="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+        <h1>Open Window</h1>
+        <h2><span th:text="${HELLO}"></span></h2>
+
+        <form action="/hello"method="post">
+            <h3>What is your name?<input type="text" name="name"><button type="submit">Confirmation</button><br/></h3>
+       </form>
+
+        <table>
+            <tr th:each="n: ${text}">
+                <td th:text="${n.name}"> Привет!</td>
+            </tr>
+        </table>
+
+</body>
+</html>

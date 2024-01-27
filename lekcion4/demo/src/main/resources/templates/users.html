@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+      <meta charset="UTF-8">
+      <title>User List</title>
+  </head>
+  <body>
+      <!-- th (таймлиф)-->
+      <h1>Users</h1>
+      <!--Создание таблицы-->
+      <table>
+        <!--Создание строк-->
+        <tr>
+          <!--Создание колонок-->
+          <th>ID</th>
+          <th>name</th>
+          <th>email</th>
+        </tr>
+          <!--th:each для того, что бы работало для каждого отдельного пользователя (foreach)-->
+        <tr th:each="user ${users}">
+          <!--<td> тэг для создания самих данных-->
+          <td th:text="${user.id}"></td>
+          <!--Тэг <a> это ссылка-->
+          <td><a th:href="@{/users/{id}(id=${user.id})}" th:text="${user.name}"></a></td>
+          <td th:text="${user.email}"></td>
+        </tr>
+      </table>
+  </body>
+</html>
