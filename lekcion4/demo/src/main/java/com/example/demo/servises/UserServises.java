@@ -13,6 +13,9 @@ public class UserServises {
     private UserRepository userRepository;
 
     public List<User> getAllUsers(){
+        userRepository.save(new User(null, "name1", "email1"));
+        userRepository.save(new User(null, "name2", "email2"));
+        userRepository.save(new User(null, "name3", "email3"));
         return userRepository.findAll();
     }
 

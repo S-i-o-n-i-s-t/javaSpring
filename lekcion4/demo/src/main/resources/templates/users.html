@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
   <head>
-      <meta charset="UTF-8">
+<!--      <meta charset="UTF-8">-->
       <title>User List</title>
   </head>
   <body>
@@ -12,12 +12,12 @@
         <!--Создание строк-->
         <tr>
           <!--Создание колонок-->
-          <th>ID</th>
+          <th>id</th>
           <th>name</th>
           <th>email</th>
         </tr>
           <!--th:each для того, что бы работало для каждого отдельного пользователя (foreach)-->
-        <tr th:each="user ${users}">
+<tr th:each="user ${users}">
           <!--<td> тэг для создания самих данных-->
           <td th:text="${user.id}"></td>
           <!--Тэг <a> это ссылка-->
